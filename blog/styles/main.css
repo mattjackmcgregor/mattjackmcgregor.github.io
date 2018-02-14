@@ -2,14 +2,21 @@ html{
     background-image: url('../../images/code-1839406_960_720.jpg');
     background-size: cover;
     background-attachment: fixed;
-    background-color: rgba(0, 0, 128, 0.76);
+    background-color: rgba(0, 55, 128, 0.76);
     background-blend-mode: overlay; 
 }
 
-.blog{
+.blog {
     color: rgb(248, 215, 74);
-   
 }
+
+.body {
+    color: rgb(248, 215, 74);
+}
+ul li {
+    color: rgb(248, 215, 74);
+}
+
 
 h1 {
     font-size: 40px;
@@ -105,8 +112,26 @@ a:hover {
         text-align: center;
         text-decoration: none;
         display: inline-block;
+        position: relative;
         font-size: 16px;
         margin: 4px 2px;
         cursor: pointer;
         float:right;
+    }
+
+    .blogpost-content {
+        display: none;
+        position: relative;
+        z-index: 2;
+    }
+
+    .blogpost-content a {
+        text-decoration: none;
+        display: block;
+        
+    }
+
+    .button2:hover .blogpost-content {
+        display: block;
+        
     }
