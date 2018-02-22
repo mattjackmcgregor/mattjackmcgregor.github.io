@@ -1,0 +1,72 @@
+
+.title {
+    border: 1px solid red;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.social {
+    text-align: center;
+}
+
+.bymjm {
+    text-align: center;
+}
+
+p, .blurb {
+    text-align: center;
+}
+
+.window {
+    border: 1px solid red;  
+}
+
+.mainwindow {
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.blogtitlediv {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.blogtitle {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.date {
+    text-align: center;
+    font-size: 
+}
+.blogpost {
+    color: black;
+}
+
+.nav {
+    border: 1px solid red;
+   
+}
+.dropdown {
+    border: none;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.blogpost-content {
+    display: none;
+    position: relative;
+}
+
+.blogpost-content a {
+    display: block;
+}
+
+.dropdown:hover .blogpost-content {
+    display: block;
+}
