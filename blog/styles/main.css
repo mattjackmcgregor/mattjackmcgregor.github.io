@@ -1,4 +1,8 @@
 
+.pic {
+    align-content: center;
+}
+
 .title {
     border: 1px solid red;
     margin-bottom: 0;
@@ -40,8 +44,8 @@ p, .blurb {
 
 .date {
     text-align: center;
-    font-size: 
 }
+
 .blogpost {
     color: black;
 }
