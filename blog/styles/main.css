@@ -52,6 +52,7 @@ p, .blurb {
 
 .nav {
     border: 1px solid red;
+    height: auto;
    
 }
 .dropdown {
@@ -60,6 +61,7 @@ p, .blurb {
     display: inline-block;
     position: relative;
     cursor: pointer;
+    z-index: 2;
 }
 
 .blogpost-content {
